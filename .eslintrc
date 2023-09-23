@@ -18,7 +18,8 @@
         "@typescript-eslint",
         "unused-imports",
         "tailwindcss",
-        "simple-import-sort"
+        "simple-import-sort",
+        "jsx-a11y"
       ],
       "extends": [
         "plugin:tailwindcss/recommended",
@@ -26,7 +27,8 @@
         "airbnb-typescript",
         "airbnb/hooks",
         "plugin:react/jsx-runtime",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "plugin:jsx-a11y/recommended"
       ],
       "parserOptions": {
         "project": "./tsconfig.json"
